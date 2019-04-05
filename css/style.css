@@ -1,0 +1,51 @@
+html {
+  background-color: aquamarine;
+  padding-bottom: 5em;
+}
+
+main {
+  background-color: whitesmoke;
+}
+
+header>div {
+  text-align: center;
+  left: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 60px;
+}
+
+span {
+  display: inline-block;
+  line-height: normal;
+  vertical-align: middle;
+}
+
+header>img {
+  vertical-align: middle;
+}
+
+a {
+  padding: 3.2em;
+  position: relative;
+  padding-bottom: 50%;
+}
+
+main>div:first-child {
+  text-align: center;
+}
+
+main>div:nth-child(2) {
+  text-align: center;
+}
+
+img {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+div:nth-last-child(2){
+padding-left: 220px;
+}
