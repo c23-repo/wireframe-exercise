@@ -1,7 +1,4 @@
   /* ENTIRE PAGE */
-  * {
-    border: 1px solid red;
-  }
 body{
   font-family: Helvetica, sans-serif;
 }
@@ -37,6 +34,7 @@ a{
 main {
   width: 960px;
   margin: 30px auto;
+  padding-bottom: 30px;
 }
 
 /* MAIN: SUB-BANNERS */
@@ -66,15 +64,15 @@ section h2 {
   margin-bottom: 10px;
 }
 
-section p {
+ p {
   line-height: 20px;
   font-style: italic;
-  height: 315px;
   overflow: scroll;
+  height: 300px;
   margin-bottom: 15px;
 }
 
-section button{
+div button{
   border: none;
   padding: 10px 30px;
   background: #000;
@@ -94,4 +92,5 @@ footer {
   margin-top: 30px;
   clear: both;
   background: #444;
+  height: 300px;
 }
