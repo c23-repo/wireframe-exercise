@@ -1,5 +1,5 @@
 html {
-  background-color: aquamarine;
+  background-color: darkgray;
   padding-bottom: 5em;
 }
 
@@ -47,5 +47,28 @@ img {
 }
 
 div:nth-last-child(2){
-padding-left: 220px;
+text-align: center;
+}
+
+div > div{
+  padding-top: 15px;
+  display: inline-block;
+  width: 480px;
+  height: 340px;
+overflow: scroll;  
+vertical-align: top;
+}
+h1, p{
+
+  text-align: left;
+}
+button{
+  color: white;
+  background-color: black;
+  height: 60px;
+  width: 200px;
+  position: absolute;
+  bottom: -650px;
+  right: 385px;
+  font-size: 16px;
 }
